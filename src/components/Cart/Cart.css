@@ -1,0 +1,13 @@
+.cart{
+    margin-top: 2.3rem;
+    position: sticky;
+    top: 20px;
+}
+.cart h3{
+    color: rebeccapurple;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.orange{
+    background-color: orange;
+}

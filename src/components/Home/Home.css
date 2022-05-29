@@ -1,0 +1,48 @@
+
+.home-ui {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    background-color: silver;
+}
+.cart-container{
+    padding-left: 25px;
+    margin-left: 7px;
+}
+
+.laptop-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 15px;
+    padding-left: 16px;
+    justify-content: space-around;
+}
+
+/* resposive for mobile device */
+@media only screen and (max-width: 480px) {
+    .home-ui{
+        display: grid;
+        background-color: red;
+        grid-template-columns: 5fr 1fr;
+    }
+    .laptop-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+
+    }
+   
+}
+@media only screen and (max-width: 660px) {
+    .home-ui{
+        display: grid;
+        grid-template-columns: 5fr 3fr;
+    }
+    .laptop-container{
+        margin-left: 1.5rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+
+    }
+}

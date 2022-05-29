@@ -1,0 +1,14 @@
+.grandpa, .grandpa div{
+ border: 2px solid goldenrod;
+ margin: 5px;
+ padding: 5px;
+}
+h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+p{
+    margin: 0;
+    padding: 0;
+}

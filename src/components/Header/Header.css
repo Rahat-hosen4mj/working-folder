@@ -1,0 +1,16 @@
+.header-container{
+    text-align: center;
+    background-color: aliceblue;
+}
+.header-container h2{
+    margin: 0;
+    padding: 1.5rem;
+    font-weight: 500;
+    color: rebeccapurple;
+    font-size: 1.5rem;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 23px;
+}
